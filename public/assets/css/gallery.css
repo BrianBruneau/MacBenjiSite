@@ -1,0 +1,53 @@
+
+.gallery_wrapper {
+  background-image: url("/Users/YungKeybl/+++++++MAC/public/images/gold_back.jpg");
+}
+
+#photos {
+  opacity: .88;
+
+}
+#photos img {
+  max-width: 32%;
+  max-height: 427px;
+  float: left;
+  display: block;
+  margin: 4px;
+}
+
+
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 650px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+  height: 100%
+}
+
+#photo-gallery {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0px auto ;
+  padding: 10px;
+  display: block;
+  max-width: 780px;
+  text-align: center;
+
+   /* border: 1px solid goldenrod;
+  border-radius: 2px;  */
+}

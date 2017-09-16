@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page</title>
+  <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/music.css" />
+     <link rel="stylesheet" type="text/css" href="../assets/css/custMain.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Almendra+SC" rel="stylesheet">
+
+    
+</head>
+<body> 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1850520835179711";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <h1><a href="/">GBM ENT</a></h1>
+            <nav class="links">
+              <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="members">Members</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="music">Music</a></li>
+                <li><a href="contact">Contact</a></li>
+              </ul>
+            </nav>
+            <nav class="main">
+              <ul>
+                <li class="search">
+                  <a class="fa-search" href="#search">Search</a>
+                  <form id="search" method="get" action="#">
+                    <input type="text" name="query" placeholder="Search" />
+                  </form>
+                </li>
+                <li class="menu">
+                  <a class="fa-bars" href="#menu">Menu</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+        <%- body %>
+      </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/skel.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="../assets/js/main.js"></script>
+      <script src="../assets/js/gallery.js"></script>
+ 
+</body>
+</html>
