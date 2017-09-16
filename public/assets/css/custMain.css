@@ -1,3 +1,29 @@
 .row-main {
     width: 100%;
 }
+
+.fb_box {
+    margin-left: 20px;
+}
+
+.fb_box h2 {
+    color: whitesmoke;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.post_lower_row {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.post p {
+			font-size: 14px;
+			display: inline-block;
+		}
+		.post .post-row1 {
+			margin-bottom: 2px;
+			padding: 20px;
+			background-color: whitesmoke;
+			border-radius: 4px;
+		}
