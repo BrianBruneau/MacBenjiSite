@@ -1,6 +1,9 @@
 .row-main {
     width: 100%;
 }
+.rowmain_col_left {
+    margin-right: 30px;
+}
 
 .fb_box {
     margin-left: 20px;
