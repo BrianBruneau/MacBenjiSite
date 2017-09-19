@@ -10,9 +10,9 @@
 }
 
 .fb_box h2 {
-    color: whitesmoke;
+    color: black;
     padding-bottom: 10px;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid black;
 }
 
 .post_lower_row {
@@ -30,3 +30,20 @@
 			background-color: whitesmoke;
 			border-radius: 4px;
 		}
+
+.artist_rise {
+	color: black; margin-bottom: 20px;
+
+}
+
+#wrapper .music_wrapper {
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.music_desc_ajax {
+	background-color: black;
+	height: 700px;
+	padding: 0px;
+}
+		
